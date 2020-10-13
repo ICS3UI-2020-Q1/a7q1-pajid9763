@@ -3,7 +3,9 @@
  * @author Darian
  */
 public class Main {
+  // creae examGrade method
   public static void examGrade(int num){
+    // this if statement will give the user their letter grade according to their number grade
     if (num >= 80){
       System.out.println("A");
     }else if (num >= 70 && num <= 79) {
@@ -22,6 +24,7 @@ public class Main {
    * @param args the command line arguments
    */
   public static void main(String[] args) {
+    // call out the method
     examGrade(95);
     examGrade(74);
     examGrade(68);
